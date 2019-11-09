@@ -4,8 +4,8 @@
 /*team overlay bg color */
 /* Service section bg */
 /* blog slider pagination img */
-/*----------  
- 	Google fonts  
+/*----------
+ 	Google fonts
  ----------*/
 @import url("https://fonts.googleapis.com/css?family=Lora:400i|Poppins:300,400,500,600,700|Roboto:100i,300,300i,400,500,500i,700,900");
 /* Global Body Style */
@@ -613,7 +613,7 @@ div.loading {
 ***********************************************/
 .case-study {
   padding-top: 80px;
-  background: #171717; }
+  /* background: #171717;*/ }
   .case-study .content h4 {
     padding-bottom: 13px;
     font-family: "Poppins", sans-serif;
@@ -655,7 +655,7 @@ div.loading {
 
 /* Case Study Description Style */
 .case-study-content {
-  padding-top: 58px;
+  padding-top: 5px;
   padding-bottom: 90px; }
 
 .case-study-content:nth-child(odd) {
@@ -805,7 +805,7 @@ div.loading {
 ***********************************************/
 .team {
   padding: 65px 0 0;
-  background: #0f0f0f;
+  /* background: #0f0f0f; */
   overflow-x: hidden; }
 
 .team-area {
@@ -1097,7 +1097,7 @@ hr.hr-border {
 .table:hover .pricing-list:after {
   -webkit-transform: scale(1); }
 
-/* Portfolio Page and 
+/* Portfolio Page and
    Portfolio Single Page style
 ================================= */
 /**********************************************
@@ -1719,8 +1719,8 @@ form .padding-left-15 {
 @media only screen and (min-width: 1px) and (max-width: 992px) {
 
   .smallVideo {
-    width: 350px !important; 
-    height: 315px !important; } 
+    width: 350px !important;
+    height: 315px !important; }
   h1 {
     font-size: 300%; }
   h2 {
@@ -1811,7 +1811,7 @@ form .padding-left-15 {
     background: #111111;
     padding: 20px 0; }
   /* ==================
-	Portfolio Single Page 
+	Portfolio Single Page
 	===================== */
   .protfolio-mixitup-btn .th-btn {
     display: block;
@@ -1831,7 +1831,7 @@ form .padding-left-15 {
   .gallery-description p {
     padding: 0 15px 60px; }
   /* ==================
-	blog Page 
+	blog Page
 	===================== */
   .blog {
     padding: 20px 0; }
@@ -1851,7 +1851,7 @@ form .padding-left-15 {
     text-align: center;
     padding: 23px 20px; }
   /* ==================
-	Contact Page 
+	Contact Page
 	===================== */
   .contact-info {
     position: static;
@@ -1921,11 +1921,11 @@ form .padding-left-15 {
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
   .smallVideo {
-    width: 350px !important; 
-    height: 315px !important; } 
+    width: 350px !important;
+    height: 315px !important; }
   /* case study page
 	============= */
-  /* portfolio 
+  /* portfolio
 	============= */
   .portfolio-single-info {
     padding: 20px; }
@@ -1944,8 +1944,8 @@ form .padding-left-15 {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .smallVideo {
-    width: 350px !important; 
-    height: 315px !important; } 
+    width: 350px !important;
+    height: 315px !important; }
   .protfolio-list .colon {
     display: none; }
   #google-map {
@@ -1989,8 +1989,8 @@ form .padding-left-15 {
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .smallVideo {
-    width: 350px !important; 
-    height: 315px !important; } 
+    width: 350px !important;
+    height: 315px !important; }
   .logo {
     left: 80px;
     top: 25px; }
@@ -2004,20 +2004,20 @@ form .padding-left-15 {
     margin: 20px auto; } }
 
 
-   
 
-    @media only screen and (min-width: 1200px) {
+
+    /* @media only screen and (min-width: 1200px) {
       #fullteam {
         margin-left: 20% !important;
       }
       #bobby {
-        margin-left: 40% !important;
+        margin-left: 37% !important;
       }
       #youtubeLink {
             width: 500px;
             height: 345px;
       }
-       }
+       } */
 
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
