@@ -1,7 +1,6 @@
 ﻿let apiKey = "AIzaSyBtFUrvDqa2oF2FAFrF5n1lCY4woCmg2Nk"; 
 let channelId = "UCBoascFEWCumM-OmsoatBTQ"; 
 let url = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&channelId=${channelId}&part=snippet,id&order=date&maxResults=1`;
-let url2 = `https://www.googleapis.com/youtube/v3/search?key=${apiKey}&id=${channelId}&part=snippet,id&order=date&maxResults=1`;
 
 
 function updateVideoAPI(data) {
